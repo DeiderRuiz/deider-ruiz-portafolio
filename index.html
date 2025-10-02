@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Deider Ruiz - Dev & Designer</title>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio en línea de Deider Ruiz, Full Stack Web Developer & UX/UI Designer"
+    />
+    <link rel="canonical" href="https://deider-ruiz.pages.dev" />
+
+    <meta property="og:site_name" content="Deider Ruiz" />
+    <meta property="og:title" content="Deider Ruiz - Dev & Designer" />
+    <meta
+      property="og:description"
+      content="Portafolio en línea de Deider Ruiz, Full Stack Web Developer & UX/UI Designer"
+    />
+    <meta property="og:url" content="https://deider-ruiz.pages.dev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://deider-ruiz.pages.dev/ScorpiosPreview.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Deider Ruiz - Dev & Designer" />
+    <meta
+      property="twitter:description"
+      content="Portafolio en línea de Deider Ruiz, Full Stack Web Developer & UX/UI Designer"
+    />
+    <meta property="twitter:image" content="https://deider-ruiz.pages.dev/ScorpiosPreview.jpg" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body class="bg-cosmic-latte">
+    <div id="app" class="overflow-auto scroll-smooth h-screen">
+      <div id="loader">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
+          >
+            <path
+              class="spin"
+              d="M4 24c0 11.046 8.954 20 20 20v0c11.046 0 20-8.954 20-20S35.046 4 24 4"
+            ></path>
+            <path
+              class="spin-reverse"
+              d="M36 24c0-6.627-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12v0"
+            ></path>
+          </g>
+        </svg>
+        <p class="text-lg font-semibold">Cargando...</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #loader {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #1c095b; /* morado-scorpios */
+      color: white;
+      font-family: Arial, sans-serif; /* segura antes de que cargue Inter */
+    }
+
+    #loader svg {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 1rem;
+    }
+
+    #loader svg .spin,
+    #loader svg .spin-reverse {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    #loader svg .spin {
+      animation: spin 1s linear infinite;
+    }
+
+    /* Path 2: sentido antihorario */
+    #loader svg .spin-reverse {
+      animation: spin-reverse 1s linear infinite;
+    }
+    #loader p {
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin-reverse {
+      from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+  </style>
+</html>

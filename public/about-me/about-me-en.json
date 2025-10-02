@@ -1,0 +1,232 @@
+{
+  "secciones": {
+    "perfil": "Profile",
+    "proyectos": "Projects",
+    "educacion": "Education",
+    "idiomas": "Languages",
+    "certificados": "Certificates"
+  },
+  "language": {
+    "bandera": "/images/usa.svg",
+    "lengua": "English"
+  },
+  "ubicacion": "Sincelejo, Colombia",
+  "email": "ruizdeider09@gmail.com",
+  "telefono": "+57 3003096996",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/deiderruiz/",
+    "github": "https://github.com/DeiderRuiz",
+    "behance": "https://www.behance.net/tu-perfil"
+  },
+  "resumen": "Full Stack Developer and UX/UI Designer with experience in building web applications with clean and functional interfaces. Proficient in Laravel, Vue.js, and Figma with a strong focus on crafting intuitive and visually consistent user experiences. I have led innovative projects, including a platform that integrates a chatbot for emotional support. I bring together design and development to turn ideas into real, impactful products.",
+  "secciones_habilidades": {
+    "destacadas": "Key skills",
+    "habilidades": "Skills",
+    "curriculum": "View resume"
+  },
+  "roles": [
+    {
+      "titulo": "Full Stack Developer",
+      "descripcion": "Specialized in developing full-stack web applications by integrating backend, frontend, and databases into complete end-to-end solutions. I have solid experience with Laravel, accompanied by Vue.js, Angular and MySQL, as well as deployments on AWS. I have built functional solutions such as an application for managing psychological counseling appointments, that incorporates a chatbot for emotional support. These and other experiences have provided me with strong foundations for delivering practical solutions in small to medium-sized projects and enables me to scale toward distributed architectures when required.",
+      "destacado": ["Laravel", "Vue.js", "MySQL"],
+      "habilidades": [
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Python",
+        "Laravel",
+        "Vue.js",
+        "Angular",
+        "Flask",
+        "Tailwind CSS",
+        "Bootstrap",
+        "MySQL",
+        "REST APIs",
+        "Cloud Deployment",
+        "AWS",
+        "Git",
+        "Requirements Analysis",
+        "Functional Testing"
+      ],
+      "curriculum": "https://drive.google.com/file/d/1RM-PqW9cV-DCitNUD-RV4t5IGzsH1i9I/view?usp=sharing"
+    },
+    {
+      "titulo": "UX/UI Designer",
+      "descripcion": "Specialized in designing digital interfaces that combine accessibility, functionality, and visual storytelling. I use Figma to create wireframes and develop interactive prototypes that validate usability prior to implementation. I apply user-centered design methodologies, drawing on interviews and user stories, while conducting usability testing and integrating WCAG accessibility principles to ensure each interface meets real user needs. My analytical approach and active listening skills facilitate collaboration with stakeholders, users, and development teams, ensuring that designs are translated into accurate and functional implementations.",
+      "destacado": ["Figma", "HTML", "CSS"],
+      "habilidades": [
+        "Figma",
+        "HTML",
+        "CSS",
+        "User-Centered Design",
+        "Lean UX",
+        "Design Thinking",
+        "Atomic Design",
+        "Responsive Design",
+        "Web Accessibility"
+      ],
+      "curriculum": "https://drive.google.com/file/d/1mA3O43TIgkvlnN4ic_iR2GlgmEcZa9ZY/view?usp=sharing"
+    }
+  ],
+  "seccion_proyectos": {
+    "developer": "Achievements as a Full Stack Developer",
+    "designer": "Achievements as a UX/UI Designer",
+    "github": "View repository on GitHub",
+    "figma": "View mockup in Figma",
+    "carousel": "View images of"
+  },
+  "proyectos": [
+    {
+      "id": 3,
+      "logo": "/images/RSL.png",
+      "titulo": "RS Lodgings",
+      "fecha_inicio": "January 2024",
+      "fecha_fin": "May 2025",
+      "rol": "Full Stack Developer & UX/UI Designer",
+      "descripcion": "Web application for room booking and hotel service management.",
+      "logro_general": "This project allowed me to strengthen my expertise in Laravel and Vue.js, integrate payment methods via SDK, and automate tasks using Cron Jobs.",
+      "stack": ["Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
+      "github": "https://github.com/DeiderRuiz/RS-Lodgings",
+      "figma": "https://www.figma.com/proto/BxlQ5G2nne40TrVI2Z1roK/RS-Lodgings?page-id=0%3A1&node-id=1-3&p=f&viewport=93%2C260%2C0.07&t=vvN9IDJTHHtzaGbt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3",
+      "color": "#BDAE81",
+      "logros_dev": [
+        "Automated administrative processes by implementing business logic in Laravel, eliminating 7 manual tasks and streamlining operations.",
+        "Integrated a payment method using the PayPal SDK, automating transactions and enhancing payment security.",
+        "Built a Cron Job to update reservation statuses and room availability on a daily basis, reducing manual intervention by 99.9%."
+      ],
+      "logros_designer": [
+        "Defined typography and color palette following WCAG accessibility standards, achieving a UI with optimal contrast and improved readability that reflects hospitality and luxury aligned with the brand identity.",
+        "Designed an interactive prototype in Figma, establishing navigation flows and visual hierarchies that facilitated frontend implementation and accelerated product delivery.",
+        "Developed an interactive interface with Vue.js and Tailwind CSS, integrating reusable and dynamic components that improved usability and responsiveness, ensuring a user experience consistent with the proposed design"
+      ],
+      "imagenes": [
+        "/images/RSL_index.png",
+        "/images/RSL_rooms.png",
+        "/images/RSL_deals.png",
+        "/images/RSL_cities.png"
+      ]
+    },
+    {
+      "id": 2,
+      "logo": "/images/UAJS.png",
+      "titulo": "Psicobot",
+      "fecha_inicio": "September 2024",
+      "fecha_fin": "September 2023",
+      "rol": "Full Stack Developer & UX/UI Designer",
+      "descripcion": "AI-powered application to support emotional management for university students",
+      "logro_general": "The software developed in this project achieved an average rating of 4.62 on a Likert scale through surveys conducted with students and mental health professionals. The chatbot demonstrated high psychometric reliability (Cronbach’s α = 0.87) in diagnostic impressions.",
+      "stack": ["Flask", "Vue.js", "MySQL", "Tailwind CSS"],
+      "github": "https://github.com/DeiderRuiz/Psicobot",
+      "figma": "https://www.figma.com/proto/9W5MLOxmBSqaZliFmZwTdx/Psychobot?page-id=0%3A1&node-id=2215-29&p=f&viewport=-143%2C464%2C0.07&t=6q28pfW7JFtbh90A-1&scaling=scale-down&content-scaling=fixed",
+      "color": "#50C878",
+      "logros_dev": [
+        "Developed a responsive interface using Vue.js and Tailwind CSS, achieving an average usability rating of 4.6/5 on the Likert scale through user surveys.",
+        "Integrated a psychological support chatbot for students by implementing an external API (OpenAI), complementing the university’s counseling services.",
+        "Designed the chatbot’s conversational flow, achieving psychometric reliability (α = 0.87) in diagnostic impressions validated through user surveys.",
+        "Led the deployment of the application on AWS (EC2, RDS) and validated its stability through load testing with Apache JMeter, ensuring support for over 500 simultaneous users."
+      ],
+      "logros_designer": [
+        "Conducted interviews with potential users and collaborated with stakeholders to draft user stories, enabling prioritization of key features and aligning the roadmap with project needs.",
+        "Defined the color palette applying color psychology and institutional branding, achieving a UI that conveys peace, stability, and serenity while maintaining coherence with the university’s image and values.",
+        "Designed an interactive prototype in Figma based on minimalist design principles, using a clean layout with limited interactive elements to avoid visual clutter and convey calm, order, and stability in every view."
+      ],
+      "imagenes": [
+        "/images/Psico_index.png",
+        "/images/Psico_chatbot.png",
+        "/images/Psico_solicitar.png",
+        "/images/Psico_citas.png"
+      ]
+    },
+    {
+      "id": 1,
+      "logo": "/images/SH.png",
+      "titulo": "SPEEDHUNTERS",
+      "fecha_inicio": "August 2021",
+      "fecha_fin": "June 2022",
+      "rol": "Full Stack Developer & UX/UI Designer",
+      "descripcion": "Web application for online vehicle sales",
+      "logro_general": "This project allowed me to go through every phase of the software development lifecycle, strengthen my skills in UI design, analysis, development, and integration, and gain a deeper understanding of the end-to-end software engineering process.",
+      "stack": ["Laravel", "JavaScript", "MySQL", "Tailwind CSS"],
+      "github": "https://github.com/DeiderRuiz/speedhunters",
+      "figma": "https://www.figma.com/proto/zUGwTduvkoOsCMJ85jMs4r/SEEDHUNTERS-beta?page-id=0%3A1&node-id=2313-2&viewport=297%2C304%2C0.31&t=h4UEV76xjJeh5dfH-1&scaling=scale-down&content-scaling=fixed",
+      "color": "#E51A4C",
+      "logros_dev": [
+        "Refactored and migrated key modules from pure PHP to Laravel, reducing technical debt, improving maintainability, and enhancing system security.",
+        "Automated commercial and administrative processes with backend modules in Laravel, increasing operational efficiency and eliminating nine manual tasks.",
+        "Restricted administrative routes with middleware, preventing unauthorized access and strengthening overall security.",
+        "Developed dynamic PDF generation, improving document management and enhancing the efficiency of four commercial processes."
+      ],
+      "logros_designer": [
+        "Defined functional requirements in a traceability matrix in collaboration with stakeholders, creating a clear foundation of prioritized features and reducing ambiguities in the initial stage.",
+        "Created wireframes that facilitated early validation of the user flow, avoiding rework and optimizing communication with the development team.",
+        "Designed an interactive prototype in Figma that served as both a visual and functional guide, accelerating design decisions and ensuring the final experience aligned with expectations."
+      ],
+      "imagenes": [
+        "/images/SH_index.png",
+        "/images/SH_autos.png",
+        "/images/SH_cotizar.png",
+        "/images/SH_td.png"
+      ]
+    }
+  ],
+  "educacion": {
+    "grado": "Bachelor’s Degree in Systems Engineering",
+    "universidad": "Corporación Universitaria Antonio José de Sucre",
+    "inicio": "2018",
+    "fin": "2025",
+    "ciudad": "Sincelejo, Colombia"
+  },
+  "idiomas": [
+    {
+      "bandera": "/images/colombia.svg",
+      "lengua": "Spanish",
+      "nivel": "Native"
+    },
+    {
+      "bandera": "/images/usa.svg",
+      "lengua": "English",
+      "nivel": "B2"
+    }
+  ],
+  "ver_certificado": "View certificate",
+  "certificados": [
+    {
+      "titulo": "Figma Workshop",
+      "from": "Desafío Latam",
+      "fecha": "July 2025",
+      "link": "https://cursos.desafiolatam.com/certificates/qp8jsarqoc"
+    },
+    {
+      "titulo": "Speaker Certificate – IV Congreso Internacional de Ciencias Multidisciplinarias (4th International Congress of Multidisciplinary Sciences)",
+      "from": "Corporación Universitaria Antonio José de Sucre",
+      "fecha": "August 2024",
+      "link": "https://drive.google.com/file/d/17vuFYBt3WIKOWspOYQuJVplx_Wf5c5dG/view?usp=sharing"
+    },
+    {
+      "titulo": "Certificate in Research and Innovation – UAJS",
+      "from": "Corporación Universitaria Antonio José de Sucre",
+      "fecha": "August 2024",
+      "link": "https://drive.google.com/file/d/1nar5910WG8oUFTMDzklz1YHH-JZ713KY/view?usp=sharing"
+    },
+    {
+      "titulo": "Certification in SQL and Relational Databases",
+      "from": "Cognitive Class - IBM",
+      "fecha": "May 2023",
+      "link": "https://courses.cognitiveclass.ai/certificates/64645485a6ce4ad395198f3eab5ed775"
+    },
+    {
+      "titulo": "English B2 Level",
+      "from": "Centro de Idiomas Tweetalig – Cambridge University Press",
+      "fecha": "June 2020",
+      "link": "https://drive.google.com/file/d/1vbgPARxQWCp4Ox_CFoi_99kzGXyaIOFY/view?usp=sharing"
+    }
+  ],
+  "footer": {
+    "titulo": "Behind the Code",
+    "valorant": "Main Killjoy in Valorant",
+    "rocket_league": "Leader of Scorpios in Rocket League",
+    "junior": "Junior de Barranquilla fan",
+    "disponibilidad": "Available For:",
+    "trabajos": ["Remote Work", "Full-time", "Part-time", "Freelance"]
+  }
+}

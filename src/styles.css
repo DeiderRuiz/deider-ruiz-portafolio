@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-morado-scorpios: #1c095b;
+  --color-morado-scorpios-light: #342659;
+  --color-cosmic-latte: #fff8e7;
+  --color-plata: #e3e4e5;
+  --background-image-patron: url('/patron.svg');
+  --text-4xl-plus: 2rem;
+}
