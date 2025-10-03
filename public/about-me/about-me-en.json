@@ -15,8 +15,7 @@
   "telefono": "+57 3003096996",
   "links": {
     "linkedin": "https://www.linkedin.com/in/deiderruiz/",
-    "github": "https://github.com/DeiderRuiz",
-    "behance": "https://www.behance.net/tu-perfil"
+    "github": "https://github.com/DeiderRuiz"
   },
   "resumen": "Full Stack Developer and UX/UI Designer with experience in building web applications with clean and functional interfaces. Proficient in Laravel, Vue.js, and Figma with a strong focus on crafting intuitive and visually consistent user experiences. I have led innovative projects, including a platform that integrates a chatbot for emotional support. I bring together design and development to turn ideas into real, impactful products.",
   "secciones_habilidades": {
@@ -48,7 +47,7 @@
         "Requirements Analysis",
         "Functional Testing"
       ],
-      "curriculum": "https://drive.google.com/file/d/1RM-PqW9cV-DCitNUD-RV4t5IGzsH1i9I/view?usp=sharing"
+      "curriculum": "/pdfs/Deider_Ruiz_Full_Stack_Developer.pdf"
     },
     {
       "titulo": "UX/UI Designer",
@@ -65,7 +64,7 @@
         "Responsive Design",
         "Web Accessibility"
       ],
-      "curriculum": "https://drive.google.com/file/d/1mA3O43TIgkvlnN4ic_iR2GlgmEcZa9ZY/view?usp=sharing"
+      "curriculum": "/pdfs/Deider_Ruiz_UX_UI_Designer.pdf"
     }
   ],
   "seccion_proyectos": {
