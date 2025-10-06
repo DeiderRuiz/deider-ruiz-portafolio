@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import VueGtag from 'vue-gtag'
+import VueGtag from 'vue-gtag-next'
 import './styles.css'
 
 import App from './App.vue'
@@ -12,13 +12,9 @@ const pinia = createPinia() // crear instancia pinia
 
 app.use(pinia) // registrar pinia
 app.use(router) // registrar router vue
-app.use(
-  VueGtag,
-  {
-    config: { id: 'G-XXXXXXXXXX' }, // <-- tu ID de medición de Google Analytics 4
-  },
-  router,
-)
+app.use(VueGtag, {
+  property: { id: 'G-XXXXXXXXXX' },
+})
 
 // usar store pasando la instancia pinia explícitamente
 const profile = useProfileStore(pinia)
