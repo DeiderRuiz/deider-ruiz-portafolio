@@ -13,7 +13,7 @@ const pinia = createPinia() // crear instancia pinia
 app.use(pinia) // registrar pinia
 app.use(router) // registrar router vue
 app.use(VueGtag, {
-  property: { id: 'G-XXXXXXXXXX' },
+  property: { id: 'G-4BCX77XE30' },
 })
 
 // usar store pasando la instancia pinia explícitamente
