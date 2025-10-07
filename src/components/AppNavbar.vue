@@ -82,7 +82,7 @@ onMounted(() => {
       <div class="w-full flex flex-wrap items-center justify-between mx-auto py-4 px-6 sm:px-12">
         <button
           type="button"
-          class="flex items-center cursor-pointer"
+          class="flex items-center cursor-pointer hover:scale-110 ease-in-out delay-150 duration-300"
           @click="goTop"
           aria-label="Inicio"
         >

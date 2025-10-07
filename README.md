@@ -2,7 +2,7 @@
 
 Mi portafolio como Full Stack Developer y UX/UI Designer.
 
-🔗 Link: https://deiderruiz.pages.dev
+🔗 Link: https://deider-ruiz.netlify.app
 
 **Tecnologías**
 
