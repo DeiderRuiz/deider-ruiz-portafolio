@@ -11,11 +11,18 @@ const { datos } = storeToRefs(profile)
 const acordeon = reactive({})
 const modal = ref()
 
+//Cambiar sombra del div contenedor de los proyectos dinamicamente
+const sombrasClasses = (proyecto) => {
+  return acordeon[proyecto.id]
+    ? 'shadow-md/40 transition duration-300' // Con sombra
+    : '' // sin sombra
+}
+
 // Cambiar clases del acordeon dinamicamente
 const proyectoClasses = (proyecto) => {
   return acordeon[proyecto.id]
     ? 'bg-morado-scorpios text-white' // acordeon abierto
-    : 'bg-cosmic-latte text-black' // acordeon cerrado
+    : 'hover:shadow-md/40 text-black' // acordeon cerrado
 }
 
 // Girar flecha del acordeon en 180
@@ -43,7 +50,7 @@ const closeModal = () => {
   <section class="px-6 sm:px-12 py-6 space-y-6 scroll-mt-17" id="proyectos">
     <h1 class="text-2xl sm:text-4xl-plus font-bold">{{ datos.secciones.proyectos }}</h1>
     <div>
-      <div v-for="proyecto in datos.proyectos" :key="proyecto.id">
+      <div v-for="proyecto in datos.proyectos" :key="proyecto.id" :class="sombrasClasses(proyecto)">
         <button
           type="button"
           class="w-full p-3 cursor-pointer hover:bg-morado-scorpios hover:text-white transition duration-300"
@@ -100,7 +107,7 @@ const closeModal = () => {
             role="region"
             :aria-labelledby="`accordion-${proyecto.id}`"
             v-show="acordeon[proyecto.id]"
-            class="origin-top p-8 mb-2 bg-cosmic-latte-dark text-black text-sm sm:text-base space-y-3 shadow-md/30"
+            class="origin-top p-8 bg-cosmic-latte-dark text-black text-sm sm:text-base space-y-3"
           >
             <div class="space-y-2">
               <h3 class="font-bold text-base sm:text-lg">
