@@ -100,7 +100,7 @@ const closeModal = () => {
             role="region"
             :aria-labelledby="`accordion-${proyecto.id}`"
             v-show="acordeon[proyecto.id]"
-            class="origin-top p-8 bg-cosmic-latte-dark text-black text-sm sm:text-base space-y-3"
+            class="origin-top p-8 mb-2 bg-cosmic-latte-dark text-black text-sm sm:text-base space-y-3 shadow-md/30"
           >
             <div class="space-y-2">
               <h3 class="font-bold text-base sm:text-lg">
