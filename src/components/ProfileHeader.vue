@@ -26,7 +26,7 @@ const { datos } = storeToRefs(profile)
             <a
               href="mailto:ruizdeider09@gmail.com"
               target="_blank"
-              class="flex items-center justify-start font-medium space-x-1 underline"
+              class="flex items-center justify-start font-medium space-x-1 hover:text-cosmic-latte-dark transition transform hover:scale-110 ease-in-out duration-300 underline"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                 <path
@@ -54,7 +54,7 @@ const { datos } = storeToRefs(profile)
             <a
               :href="datos.links.linkedin"
               target="_blank"
-              class="flex items-center justify-start font-medium space-x-1 hover:text-plata transition transform hover:scale-110 ease-in-out duration-300 underline"
+              class="flex items-center justify-start font-medium space-x-1 hover:text-cosmic-latte-dark transition transform hover:scale-110 ease-in-out duration-300 underline"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                 <path
@@ -69,7 +69,7 @@ const { datos } = storeToRefs(profile)
             <a
               :href="datos.links.github"
               target="_blank"
-              class="flex items-center justify-start font-medium space-x-1 hover:text-plata transition transform hover:scale-110 ease-in-out duration-300 underline"
+              class="flex items-center justify-start font-medium space-x-1 hover:text-cosmic-latte-dark transition transform hover:scale-110 ease-in-out duration-300 underline"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                 <path

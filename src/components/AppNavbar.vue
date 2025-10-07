@@ -94,7 +94,7 @@ onMounted(() => {
           >
             <a
               href="#perfil"
-              class="flex items-center justify-center space-x-1 hover:text-plata transition transform hover:scale-110 ease-in-out duration-300"
+              class="flex items-center justify-center space-x-1 hover:text-cosmic-latte-dark transition transform hover:scale-110 ease-in-out duration-300"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                 <g fill="none">
@@ -111,7 +111,7 @@ onMounted(() => {
             </a>
             <a
               href="#proyectos"
-              class="flex items-center justify-center space-x-1 hover:text-plata transition transform hover:scale-110 ease-in-out duration-300"
+              class="flex items-center justify-center space-x-1 hover:text-cosmic-latte-dark transition transform hover:scale-110 ease-in-out duration-300"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
                 <path
@@ -123,7 +123,7 @@ onMounted(() => {
             </a>
             <a
               href="#educacion"
-              class="flex items-center justify-center space-x-1 hover:text-plata transition transform hover:scale-110 ease-in-out duration-300"
+              class="flex items-center justify-center space-x-1 hover:text-cosmic-latte-dark transition transform hover:scale-110 ease-in-out duration-300"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                 <path
@@ -147,7 +147,7 @@ onMounted(() => {
             <button
               type="button"
               @click.stop="openModal('idioma')"
-              class="cursor-pointer font-semibold px-4 py-2 bg-morado-scorpios-light rounded-lg hover:bg-plata hover:text-morado-scorpios flex items-center justify-end space-x-3 hover:scale-110 ease-in-out delay-150 duration-300"
+              class="cursor-pointer font-semibold px-4 py-2 bg-morado-scorpios-light rounded-lg hover:bg-cosmic-latte hover:text-black focus:bg-cosmic-latte focus:text-black flex items-center justify-end space-x-3 hover:scale-110 ease-in-out delay-150 duration-300"
             >
               <img :src="datos.language.bandera" :alt="datos.language.lengua" class="w-6 h-6" />
               <span>{{ datos.language.lengua }}</span>
@@ -164,11 +164,11 @@ onMounted(() => {
               <div
                 v-show="modal === 'idioma'"
                 ref="dropdownRef"
-                class="absolute right-0 z-10 mt-2 py-1 w-fit origin-top-right bg-white rounded-lg shadow-lg/30 focus:outline-none overflow-hidden"
+                class="absolute right-0 z-10 mt-2 py-2 w-fit origin-top-right bg-cosmic-latte-dark rounded-lg shadow-lg/30 focus:outline-none overflow-hidden"
               >
                 <button
                   @click="setLanguage('es')"
-                  class="cursor-pointer w-full block flex items-center justify-between px-4 py-2 bg-white text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
+                  class="cursor-pointer w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
                 >
                   <div class="flex items-center justify-start space-x-3">
                     <svg
@@ -186,7 +186,7 @@ onMounted(() => {
                 </button>
                 <button
                   @click="setLanguage('en')"
-                  class="cursor-pointer w-full block flex items-center justify-between px-4 py-2 bg-white text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
+                  class="cursor-pointer w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
                 >
                   <div class="flex items-center justify-start space-x-3">
                     <svg
@@ -219,7 +219,7 @@ onMounted(() => {
             <button
               type="button"
               @click.stop="openModal('menu')"
-              class="h-10 cursor-pointer font-semibold px-4 py-2 bg-morado-scorpios-light rounded-lg hover:bg-plata hover:text-morado-scorpios flex items-center justify-end space-x-3 hover:scale-110 ease-in-out delay-150 duration-300"
+              class="h-10 cursor-pointer font-semibold px-4 py-2 bg-morado-scorpios-light rounded-lg hover:bg-cosmic-latte hover:text-black focus:bg-cosmic-latte focus:text-black flex items-center justify-end space-x-3 hover:scale-110 ease-in-out delay-150 duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -249,11 +249,11 @@ onMounted(() => {
               <div
                 v-show="modal === 'menu'"
                 ref="dropdownRef"
-                class="absolute right-0 z-10 mt-2 py-1 w-fit origin-top-right bg-white rounded-md shadow-lg/30 focus:outline-none overflow-hidden"
+                class="absolute right-0 z-10 mt-2 py-2 w-fit origin-top-right bg-cosmic-latte-dark rounded-md shadow-lg/30 focus:outline-none overflow-hidden"
               >
                 <a
                   href="#perfil"
-                  class="w-full block flex items-center justify-between px-4 py-2 bg-white text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
+                  class="w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
                 >
                   <div class="flex items-center justify-start space-x-3">
                     <svg
@@ -277,7 +277,7 @@ onMounted(() => {
                 </a>
                 <a
                   href="#proyectos"
-                  class="w-full block flex items-center justify-between px-4 py-2 bg-white text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
+                  class="w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
                 >
                   <div class="flex items-center justify-start space-x-3">
                     <svg
@@ -296,7 +296,7 @@ onMounted(() => {
                 </a>
                 <a
                   href="#educacion"
-                  class="w-full block flex items-center justify-between px-4 py-2 bg-white text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
+                  class="w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-morado-scorpios hover:text-white transition duration-300"
                 >
                   <div class="flex items-center justify-start space-x-3">
                     <svg

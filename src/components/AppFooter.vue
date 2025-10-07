@@ -73,7 +73,7 @@ const { datos } = storeToRefs(profile)
           <a
             href="mailto:ruizdeider09@gmail.com"
             target="_blank"
-            class="px-4 py-2 font-semibold bg-morado-scorpios-light rounded-lg hover:bg-plata hover:text-morado-scorpios flex items-center justify-center space-x-3 hover:scale-110 ease-in-out delay-150 duration-300"
+            class="px-4 py-2 font-semibold bg-morado-scorpios-light rounded-lg hover:bg-cosmic-latte hover:text-morado-scorpios flex items-center justify-center space-x-3 hover:scale-110 ease-in-out delay-150 duration-300"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
               <path
