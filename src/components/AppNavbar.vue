@@ -348,9 +348,9 @@ onMounted(() => {
     </svg>
     <div class="relative z-10 h-full flex items-center justify-start px-12">
       <img
-        src="/images/Me2.jpg"
+        src="/images/Me.jpg"
         class="w-20 h-20 sm:w-28 sm:h-28 object-cover rounded-full shadow-md/30"
-        alt="Deider"
+        alt="Deider Ruiz"
       />
     </div>
   </div>
