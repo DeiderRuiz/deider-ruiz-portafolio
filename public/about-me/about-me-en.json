@@ -227,5 +227,23 @@
     "junior": "Junior de Barranquilla fan",
     "disponibilidad": "Available For:",
     "trabajos": ["Remote Work", "Full-time", "Part-time", "Freelance"]
-  }
+  },
+  "valorant_headers": {
+    "mejor_rango": "Best Rank",
+    "kd": "K/D",
+    "victorias": "Wins",
+    "derrotas": "Losses",
+    "mejor_mapa": "Best Map",
+    "arma_mas_usada": "Most Used Weapon"
+  },
+  "valorant_data": {
+    "mejor_rango": "Silver 3",
+    "kd": 0.98,
+    "victorias": 921,
+    "derrotas": 977,
+    "mejor_mapa": "Icebox",
+    "arma_mas_usada": "Vandal"
+  },
+  "rocket_league_data": "Its colors, name, and logo, just like those of this portfolio, are a tribute to the Scorpios crew from Need For Speed: Carbon.",
+  "junior_data": "The shark, the heartbeat of Barranquilla, 10-time champion of Colombia."
 }

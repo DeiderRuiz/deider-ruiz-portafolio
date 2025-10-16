@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { storeToRefs } from 'pinia'
 import { useProfileStore } from '@/stores/useProfileStore'
+import { useDropdown } from '@/composables/useDropdown'
 
 // se obtiene la instancia del store "profile"
 const profile = useProfileStore()
@@ -30,33 +31,13 @@ const updateScrollProgress = () => {
   scrollProgress.value = Math.min(Math.max(progress, 0), 100)
 }
 
-// dropdowns
-const modal = ref(null)
-// abrir dorpdown
-const openModal = (item) => {
-  // click sobre el dorpsown abirto y se cierra
-  if (modal.value === item) {
-    closeModal()
-  } else {
-    modal.value = item
-  }
-}
-const closeModal = () => (modal.value = null) // cierra los dropdowns
-
-const dropdownRef = ref(null)
+const { modal, dropdownRef, openModal, closeModal } = useDropdown()
 
 // cambia el idioma en el store
 const setLanguage = (lang) => {
   profile.changeLanguage(lang)
   // cierra el dropdown del idioma cuando se cambia
   closeModal()
-}
-
-// cerrar dropdown abierto al hacer click fuera de el
-const handleClickOutside = (e) => {
-  if (dropdownRef.value && !dropdownRef.value.contains(e.target)) {
-    closeModal()
-  }
 }
 
 onMounted(() => {
@@ -66,7 +47,6 @@ onMounted(() => {
     app.addEventListener('scroll', updateScrollProgress)
     updateScrollProgress() // calcula el valor inicial de scroll
   }
-  document.addEventListener('click', handleClickOutside) //escuchar clicks globales
 })
 </script>
 

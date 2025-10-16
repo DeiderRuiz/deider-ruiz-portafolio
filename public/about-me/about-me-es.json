@@ -227,5 +227,23 @@
     "junior": "Hincha de Junior de Barranquilla",
     "disponibilidad": "Disponible Para:",
     "trabajos": ["Trabajo remoto", "Tiempo completo", "Tiempo parcial", "Freelancer"]
-  }
+  },
+  "valorant_headers": {
+    "mejor_rango": "Mejor rango",
+    "kd": "A/M",
+    "victorias": "Victorias",
+    "derrotas": "Derrotas",
+    "mejor_mapa": "Mejor mapa",
+    "arma_mas_usada": "Arma más usada"
+  },
+  "valorant_data": {
+    "mejor_rango": "Plata 3",
+    "kd": 0.98,
+    "victorias": 921,
+    "derrotas": 977,
+    "mejor_mapa": "Icebox",
+    "arma_mas_usada": "Vandal"
+  },
+  "rocket_league_data": "Sus colores, nombre y logo, al igual que los de este portafolio, son un homenaje a la cuadrilla Scorpios de Need For Speed: Carbón",
+  "junior_data": "El tiburón, el pulmón de barranquilla, 10 veces campeón de Colombia"
 }

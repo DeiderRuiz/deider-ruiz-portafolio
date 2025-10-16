@@ -1,11 +1,14 @@
 <script setup>
 import { storeToRefs } from 'pinia'
 import { useProfileStore } from '@/stores/useProfileStore'
+import { useDropdown } from '@/composables/useDropdown'
 
 // se obtiene la instancia del store "profile"
 const profile = useProfileStore()
 // extraer las propiedades reactivas del store usando storeToRefs.
 const { datos } = storeToRefs(profile)
+
+const { modal, dropdownRef, openModal } = useDropdown()
 </script>
 <template>
   <footer class="bg-morado-scorpios text-white">
@@ -34,30 +37,132 @@ const { datos } = storeToRefs(profile)
         </svg>
       </div>
       <div
-        class="px-6 sm:px-12 py-4 w-full sm:flex sm:items-start sm:justify-between space-y-5 sm:space-y-0"
+        class="px-6 sm:px-12 pt-4 pb-12 w-full sm:flex sm:items-start sm:justify-between space-y-5 sm:space-y-0 spece-x-0 sm:space-x-5"
       >
         <div class="space-y-5">
           <h3 class="text-lg sm:text-2xl font-bold">{{ datos.footer.titulo }}</h3>
           <div class="space-y-5 text-base sm:text-xl">
-            <div class="flex items-center justify-start space-x-5">
-              <img src="/images/KJ.jpg" alt="Killjoy" class="w-12 h-12 object-cover rounded-full" />
-              <h5>{{ datos.footer.valorant }}</h5>
+            <div class="relative">
+              <button
+                @click.stop="openModal('KJ')"
+                class="px-4 py-2 font-semibold bg-morado-scorpios-light rounded-lg hover:bg-cosmic-latte hover:text-morado-scorpios flex items-center justify-center space-x-3 hover:scale-110 ease-in-out delay-150 duration-300 space-x-5 cursor-pointer"
+              >
+                <img
+                  src="/images/KJ.jpg"
+                  alt="Killjoy"
+                  class="w-12 h-12 object-cover rounded-full"
+                />
+                <h5>{{ datos.footer.valorant }}</h5>
+              </button>
+              <Transition
+                enter-active-class="transition-all duration-500 ease-out"
+                enter-from-class="scale-y-0 opacity-0"
+                enter-to-class="scale-y-100 opacity-100"
+                leave-active-class="transition-all duration-500 ease-in"
+                leave-from-class="scale-y-100 opacity-100"
+                leave-to-class="scale-y-0 opacity-0"
+              >
+                <div
+                  v-show="modal === 'KJ'"
+                  ref="dropdownRef"
+                  class="left-0 z-10 mt-2 text-xs sm:text-sm w-fit origin-top-right bg-morado-scorpios-light border border-black rounded-md shadow-lg/30 focus:outline-none overflow-x-auto"
+                >
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col" class="py-2 px-2 sm:px-4">
+                          {{ datos.valorant_headers.mejor_rango }}
+                        </th>
+                        <th scope="col" class="py-2 px-2 sm:px-4">
+                          {{ datos.valorant_headers.kd }}
+                        </th>
+                        <th scope="col" class="py-2 px-2 sm:px-4">
+                          {{ datos.valorant_headers.victorias }}
+                        </th>
+                        <th scope="col" class="py-2 px-2 sm:px-4">
+                          {{ datos.valorant_headers.derrotas }}
+                        </th>
+                        <th scope="col" class="py-2 px-3 sm:px-4">
+                          {{ datos.valorant_headers.mejor_mapa }}
+                        </th>
+                        <th scope="col" class="py-2 px-2 sm:px-4">
+                          {{ datos.valorant_headers.arma_mas_usada }}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="border-t border-black">
+                        <td class="py-2 px-2 sm:px-4">{{ datos.valorant_data.mejor_rango }}</td>
+                        <td class="py-2 px-2 sm:px-4">{{ datos.valorant_data.kd }}</td>
+                        <td class="py-2 px-2 sm:px-4">{{ datos.valorant_data.victorias }}</td>
+                        <td class="py-2 px-2 sm:px-4">{{ datos.valorant_data.derrotas }}</td>
+                        <td class="py-2 px-2 sm:px-4">{{ datos.valorant_data.mejor_mapa }}</td>
+                        <td class="py-2 px-2 sm:px-4">{{ datos.valorant_data.arma_mas_usada }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </Transition>
             </div>
-            <div class="flex items-center justify-start space-x-5">
-              <img
-                src="/images/Scorpios.png"
-                alt="Scorpios Rocket League"
-                class="w-12 h-12 object-cover rounded-full"
-              />
-              <h5>{{ datos.footer.rocket_league }}</h5>
+            <div class="relative">
+              <button
+                @click.stop="openModal('RL')"
+                class="px-4 py-2 font-semibold bg-morado-scorpios-light rounded-lg hover:bg-cosmic-latte hover:text-morado-scorpios flex items-center justify-center space-x-3 hover:scale-110 ease-in-out delay-150 duration-300 space-x-5 cursor-pointer"
+              >
+                <img
+                  src="/images/Scorpios.png"
+                  alt="Scorpios Rocket League"
+                  class="w-12 h-12 object-cover rounded-full"
+                />
+                <h5>{{ datos.footer.rocket_league }}</h5>
+              </button>
+              <Transition
+                enter-active-class="transition-all duration-500 ease-out"
+                enter-from-class="scale-y-0 opacity-0"
+                enter-to-class="scale-y-100 opacity-100"
+                leave-active-class="transition-all duration-500 ease-in"
+                leave-from-class="scale-y-100 opacity-100"
+                leave-to-class="scale-y-0 opacity-0"
+              >
+                <div
+                  v-show="modal === 'RL'"
+                  ref="dropdownRef"
+                  class="left-0 z-10 mt-2 text-xs py-2 px-2 sm:px-4 sm:text-sm w-fit origin-top-right bg-morado-scorpios-light rounded-md shadow-lg/30 focus:outline-none overflow-hidden"
+                >
+                  <p>
+                    {{ datos.rocket_league_data }}
+                  </p>
+                </div>
+              </Transition>
             </div>
-            <div class="flex items-center justify-start space-x-5">
-              <img
-                src="/images/junior.png"
-                alt="Junior"
-                class="w-12 h-12 object-cover rounded-full"
-              />
-              <h5>{{ datos.footer.junior }}</h5>
+            <div class="relative">
+              <button
+                @click.stop="openModal('Junior')"
+                class="px-4 py-2 font-semibold bg-morado-scorpios-light rounded-lg hover:bg-cosmic-latte hover:text-morado-scorpios flex items-center justify-center space-x-3 hover:scale-110 ease-in-out delay-150 duration-300 space-x-5 cursor-pointer"
+              >
+                <img
+                  src="/images/junior.png"
+                  alt="Junior"
+                  class="w-12 h-12 object-cover rounded-full"
+                />
+                <h5>{{ datos.footer.junior }}</h5>
+              </button>
+              <Transition
+                enter-active-class="transition-all duration-500 ease-out"
+                enter-from-class="scale-y-0 opacity-0"
+                enter-to-class="scale-y-100 opacity-100"
+                leave-active-class="transition-all duration-500 ease-in"
+                leave-from-class="scale-y-100 opacity-100"
+                leave-to-class="scale-y-0 opacity-0"
+              >
+                <div
+                  v-show="modal === 'Junior'"
+                  ref="dropdownRef"
+                  class="left-0 z-10 mt-2 text-xs py-2 px-2 sm:px-4 sm:text-sm w-fit origin-top-right bg-morado-scorpios-light rounded-md shadow-lg/30 focus:outline-none overflow-hidden"
+                >
+                  <p>{{ datos.junior_data }}</p>
+                </div>
+              </Transition>
             </div>
           </div>
         </div>
