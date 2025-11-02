@@ -51,7 +51,7 @@
     },
     {
       "titulo": "UX/UI Designer",
-      "descripcion": "Especializado en diseñar interfaces digitales para aplicaciones web y móviles que combinan accesibilidad, funcionalidad y narrativa visual. Utilizo Figma para esquematizar wireframes y desarrollar prototipos interactivos que permiten validar la usabilidad antes de la implementación. Aplico metodologías de diseño centrado en el usuario, apoyándome en entrevistas e historias de usuario, además realizo pruebas de usabilidad e integro principios de accesibilidad WCAG para garantizar que cada interfaz satisfaga las necesidades reales del usuario. Mi enfoque analítico y mi capacidad de escucha activa facilitan la colaboración con stakeholders, usuarios y equipos de desarrollo, logrando que el diseño se traduzca en implementaciones fieles y funcionales.",
+      "descripcion": "Especializado en diseñar interfaces web y móviles que equilibran accesibilidad y funcionalidad, adaptadas a la identidad de cada cliente. Utilizo Figma para esquematizar wireframes y desarrollar prototipos interactivos que permiten validar la usabilidad antes de la implementación. Aplico metodologías de diseño centrado en el usuario, apoyándome en entrevistas e historias de usuario, además realizo pruebas de usabilidad e integro principios de accesibilidad WCAG para garantizar que cada interfaz satisfaga las necesidades reales del usuario. Mi enfoque analítico y mi capacidad de escucha activa facilitan la colaboración con stakeholders, usuarios y equipos de desarrollo, logrando que el diseño se traduzca en implementaciones fieles y funcionales.",
       "destacado": ["Figma", "HTML", "CSS"],
       "habilidades": [
         "Figma",
@@ -120,7 +120,8 @@
       "color": "#50C878",
       "logros_dev": [
         "Desarrollé una interfaz responsiva con Vue.js y Tailwind CSS, obteniendo mediante encuestas a usuarios una calificación promedio de 4.6/5 en usabilidad (escala Likert).",
-        "Integré un chatbot de apoyo psicológico para estudiantes, implementando una API externa (OpenAI) y complementando el servicio de orientación universitaria.",
+        "Automaticé 3 procesos administrativos del servicio de salud mental al desarrollar la capa servidor en Flask, reemplazando formularios manuales por soluciones digitales.",
+        "Integré un chatbot de apoyo psicológico para estudiantes, implementando una API externa (OpenAI) y complementando el servicio de orientación psicológica de la universidad.",
         "Diseñé de flujo conversacional del chatbot, obteniendo una confiabilidad psicométrica (α = 0.87) en impresión diagnóstica, validada con encuestas a usuarios.",
         "Lideré el despliegue de la aplicación en AWS (EC2, RDS) y validé su estabilidad mediante pruebas de carga con Apache JMeter, garantizando soporte para más de 500 usuarios simultáneos."
       ],

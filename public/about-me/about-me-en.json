@@ -51,7 +51,7 @@
     },
     {
       "titulo": "UX/UI Designer",
-      "descripcion": "Specialized in designing digital interfaces for web and mobile applications that combine accessibility, functionality, and visual storytelling. I use Figma to create wireframes and develop interactive prototypes that validate usability prior to implementation. I apply user-centered design methodologies, drawing on interviews and user stories, while conducting usability testing and integrating WCAG accessibility principles to ensure each interface meets real user needs. My analytical approach and active listening skills facilitate collaboration with stakeholders, users, and development teams, ensuring that designs are translated into accurate and functional implementations.",
+      "descripcion": "Specialized in designing web and mobile interfaces that balance accessibility and functionality, tailored to each client’s identity. I use Figma to create wireframes and develop interactive prototypes that validate usability prior to implementation. I apply user-centered design methodologies, drawing on interviews and user stories, while conducting usability testing and integrating WCAG accessibility principles to ensure each interface meets real user needs. My analytical approach and active listening skills facilitate collaboration with stakeholders, users, and development teams, ensuring that designs are translated into accurate and functional implementations.",
       "destacado": ["Figma", "HTML", "CSS"],
       "habilidades": [
         "Figma",
@@ -96,7 +96,7 @@
       "logros_designer": [
         "Defined typography and color palette following WCAG accessibility standards, achieving a UI with optimal contrast and improved readability that reflects hospitality and luxury aligned with the brand identity.",
         "Designed an interactive prototype in Figma, establishing navigation flows and visual hierarchies that facilitated frontend implementation and accelerated product delivery.",
-        "Developed an interactive interface with Vue.js and Tailwind CSS, integrating reusable and dynamic components that improved usability and responsiveness, ensuring a user experience consistent with the proposed design"
+        "Developed an interactive interface with Vue.js and Tailwind CSS, integrating reusable and dynamic components that improved usability and responsiveness, ensuring a user experience consistent with the proposed design."
       ],
       "imagenes": [
         "/images/RSL_index.png",
@@ -120,7 +120,8 @@
       "color": "#50C878",
       "logros_dev": [
         "Developed a responsive interface using Vue.js and Tailwind CSS, achieving an average usability rating of 4.6/5 on the Likert scale through user surveys.",
-        "Integrated a psychological support chatbot for students by implementing an external API (OpenAI), complementing the university’s counseling services.",
+        "Automated three administrative processes for the mental health service by developing the server layer in Flask, replacing manual forms with digital solutions.",
+        "Integrated a psychological support chatbot for students by implementing an external API (OpenAI), complementing the university psychological counseling service.",
         "Designed the chatbot’s conversational flow, achieving psychometric reliability (α = 0.87) in diagnostic impressions validated through user surveys.",
         "Led the deployment of the application on AWS (EC2, RDS) and validated its stability through load testing with Apache JMeter, ensuring support for over 500 simultaneous users."
       ],
