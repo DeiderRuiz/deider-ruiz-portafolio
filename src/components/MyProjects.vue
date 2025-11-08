@@ -28,8 +28,8 @@ const proyectoClasses = (proyecto) => {
 // Girar flecha del acordeon en 180
 const arrowClasses = (proyecto) => {
   return acordeon[proyecto.id]
-    ? 'rotate-180 duration-300' // normal
-    : 'rotate-0 duration-300' // girada
+    ? 'rotate-0 duration-300' // normal
+    : 'rotate-180 duration-300' // girada
 }
 
 // abrir el acordeon en base al item seleccionado
@@ -74,8 +74,10 @@ const closeModal = () => {
                 <p>{{ proyecto.logro_general }}</p>
                 <p><span class="font-bold">Stack:</span> {{ proyecto.stack.join(' • ') }}</p>
               </div>
+            </div>
+            <div class="flex items-center justify-end space-x-3">
+              <span class="w-fit underline">{{ datos.seccion_proyectos.ver_mas }}</span>
               <svg
-                data-accordion-icon
                 class="w-3 h-3 shrink-0"
                 :class="arrowClasses(proyecto)"
                 aria-hidden="true"

@@ -72,7 +72,8 @@
     "designer": "Achievements as a UX/UI Designer",
     "github": "View repository on GitHub",
     "figma": "View mockup in Figma",
-    "carousel": "View images of"
+    "carousel": "View images of",
+    "ver_mas": "Show more"
   },
   "proyectos": [
     {
@@ -112,7 +113,7 @@
       "fecha_inicio": "September 2024",
       "fecha_fin": "September 2023",
       "rol": "Full Stack Developer & UX/UI Designer",
-      "descripcion": "AI-powered application to support emotional management for university students",
+      "descripcion": "AI-powered application to support emotional management for university students.",
       "logro_general": "The software developed in this project achieved an average rating of 4.62 on a Likert scale through surveys conducted with students and mental health professionals. The chatbot demonstrated high psychometric reliability (Cronbach’s α = 0.87) in diagnostic impressions.",
       "stack": ["Flask", "Vue.js", "MySQL", "Tailwind CSS"],
       "github": "https://github.com/DeiderRuiz/Psicobot",
@@ -144,7 +145,7 @@
       "fecha_inicio": "August 2021",
       "fecha_fin": "June 2022",
       "rol": "Full Stack Developer & UX/UI Designer",
-      "descripcion": "Web application for online vehicle sales",
+      "descripcion": "Web application for online vehicle sales.",
       "logro_general": "This project allowed me to go through every phase of the software development lifecycle, strengthen my skills in UI design, analysis, development, and integration, and gain a deeper understanding of the end-to-end software engineering process.",
       "stack": ["Laravel", "JavaScript", "MySQL", "Tailwind CSS"],
       "github": "https://github.com/DeiderRuiz/speedhunters",
