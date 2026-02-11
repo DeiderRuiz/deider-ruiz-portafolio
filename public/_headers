@@ -1,6 +1,6 @@
 /* 
   X-Frame-Options: DENY
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://yesicon.app https://www.google-analytics.com;
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://code.iconify.design https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://api.iconify.design https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://yesicon.app https://www.google-analytics.com;
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
