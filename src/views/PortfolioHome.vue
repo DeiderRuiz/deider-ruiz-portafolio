@@ -1,10 +1,10 @@
 <script setup>
-import AppNavbar from '@/components/AppNavbar.vue'
-import ProfileHeader from '@/components/ProfileHeader.vue'
-import MySkills from '@/components/MySkills.vue'
-import MyProjects from '@/components/MyProjects.vue'
-import MyEducation from '@/components/MyEducation.vue'
-import AppFooter from '@/components/AppFooter.vue'
+import AppNavbar from '@/layouts/AppNavbar.vue'
+import ProfileHeader from '@/layouts/ProfileHeader.vue'
+import MySkills from '@/layouts/MySkills.vue'
+import MyProjects from '@/layouts/MyProjects.vue'
+import MyEducation from '@/layouts/MyEducation.vue'
+import AppFooter from '@/layouts/AppFooter.vue'
 </script>
 <template>
   <AppNavbar></AppNavbar>

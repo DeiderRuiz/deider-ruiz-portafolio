@@ -7,7 +7,7 @@
     "certificados": "Certificates"
   },
   "language": {
-    "bandera": "/images/usa.svg",
+    "bandera": "twemoji:flag-for-flag-united-states",
     "lengua": "English"
   },
   "ubicacion": "Sincelejo, Colombia",
@@ -17,7 +17,7 @@
     "linkedin": "https://www.linkedin.com/in/deiderruiz/",
     "github": "https://github.com/DeiderRuiz"
   },
-  "resumen": "Full Stack Developer and UX/UI Designer. I help small businesses and growing projects strengthen their web presence to better connect with their users. Proficient in Laravel, Vue.js, and Figma with a strong focus on crafting intuitive and visually consistent user interfaces. I have led innovative projects, including a platform that integrates a chatbot for emotional support. I bring together design and development to turn ideas into real, impactful products.",
+  "resumen": "Full Stack Developer with a UX/UI focus. I work on end-to-end web product development for small businesses and growing projects, prioritizing usability, clarity, and real user goals. I combine web development and design to transform ideas into functional and intuitive solutions.",
   "secciones_habilidades": {
     "destacadas": "Key skills",
     "habilidades": "Skills",
@@ -26,8 +26,7 @@
   "roles": [
     {
       "titulo": "Full Stack Developer",
-      "descripcion": "Specialized in developing full-stack web applications by integrating backend, frontend, and databases into complete end-to-end solutions. I have solid experience with Laravel, accompanied by Vue.js, Angular and MySQL, as well as deployments on AWS. I have built functional solutions such as an application for managing psychological counseling appointments, that incorporates a chatbot for emotional support. These and other experiences have provided me with strong foundations for delivering practical solutions in small to medium-sized projects and enables me to scale toward distributed architectures when required.",
-      "destacado": ["Laravel", "Vue.js", "MySQL"],
+      "descripcion": "Specialized in end-to-end web application and REST API development. I have worked on real-world products built from the ground up, defining architecture, data flows, and process automation. I primarily work with Laravel, Vue.js, Angular, and MySQL, handling AWS deployments and structuring applications with a strong emphasis on maintainability, code clarity, and progressive scalability. I am comfortable working on small to medium-sized projects, adapting technical complexity to the product’s actual needs.",
       "habilidades": [
         "JavaScript",
         "TypeScript",
@@ -51,8 +50,7 @@
     },
     {
       "titulo": "UX/UI Designer",
-      "descripcion": "Specialized in designing web and mobile interfaces that balance accessibility and functionality, tailored to each client’s identity. I use Figma to create wireframes and develop interactive prototypes that validate usability prior to implementation. I apply user-centered design methodologies, drawing on interviews and user stories, while conducting usability testing and integrating WCAG accessibility principles to ensure each interface meets real user needs. My analytical approach and active listening skills facilitate collaboration with stakeholders, users, and development teams, ensuring that designs are translated into accurate and functional implementations.",
-      "destacado": ["Figma", "HTML", "CSS"],
+      "descripcion": "Specialized in designing clear and intuitive interfaces for digital products. I approach design as an integral part of the product development process, defining user flows, visual hierarchies, and interactive prototypes in Figma to validate the experience before development. My experience collaborating closely with engineering teams enables me to create feasible, accessible, and consistent designs, ensuring that design specifications are accurately translated into the final implementation without losing usability or visual intent.",
       "habilidades": [
         "Figma",
         "HTML",
@@ -73,7 +71,7 @@
     "github": "View repository on GitHub",
     "figma": "View mockup in Figma",
     "carousel": "View images of",
-    "ver_mas": "Show more"
+    "ver_mas": "Click for view more"
   },
   "proyectos": [
     {
@@ -83,21 +81,20 @@
       "fecha_inicio": "January 2024",
       "fecha_fin": "May 2025",
       "rol": "Full Stack Developer & UX/UI Designer",
-      "descripcion": "Web application for room booking and hotel service management.",
-      "logro_general": "This project allowed me to strengthen my expertise in Laravel and Vue.js, integrate payment methods via SDK, and automate tasks using Cron Jobs.",
+      "descripcion": "RS Lodgings is a web application for room reservations and hotel service management, aimed at small businesses seeking to centralize the administration of rooms, offers, and bookings efficiently.",
       "stack": ["Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
       "github": "https://github.com/DeiderRuiz/RS-Lodgings",
       "figma": "https://www.figma.com/proto/BxlQ5G2nne40TrVI2Z1roK/RS-Lodgings?page-id=0%3A1&node-id=1-3&p=f&viewport=93%2C260%2C0.07&t=vvN9IDJTHHtzaGbt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3",
       "color": "#BDAE81",
       "logros_dev": [
-        "Automated administrative processes by implementing business logic in Laravel, eliminating 7 manual tasks and streamlining operations.",
-        "Integrated a payment method using the PayPal SDK, automating transactions and enhancing payment security.",
-        "Built a Cron Job to update reservation statuses and room availability on a daily basis, reducing manual intervention by 99.9%."
+        "Automated administrative processes by implementing business logic with Laravel, eliminating seven manual tasks and streamlining operations.",
+        "Optimized SQL queries to reduce data load, achieving an approximate 25% improvement in execution times.",
+        "Developed a scheduled cron job for the daily update of booking statuses and room availability, automating the process and removing repetitive manual work."
       ],
       "logros_designer": [
-        "Defined typography and color palette following WCAG accessibility standards, achieving a UI with optimal contrast and improved readability that reflects hospitality and luxury aligned with the brand identity.",
-        "Designed an interactive prototype in Figma, establishing navigation flows and visual hierarchies that facilitated frontend implementation and accelerated product delivery.",
-        "Developed an interactive interface with Vue.js and Tailwind CSS, integrating reusable and dynamic components that improved usability and responsiveness, ensuring a user experience consistent with the proposed design."
+        "Structured the first product version around the critical booking and payment flow, removing unnecessary steps and ensuring a clear user experience from selection to confirmation.",
+        "Defined typography and color palette following WCAG accessibility standards, achieving optimal contrast and high readability aligned with the business identity.",
+        "Designed the interactive prototype in Figma, defining navigation flows and visual hierarchies that facilitated frontend implementation and accelerated product delivery."
       ],
       "imagenes": [
         "/images/RSL_index.png",
@@ -113,23 +110,22 @@
       "fecha_inicio": "September 2024",
       "fecha_fin": "September 2023",
       "rol": "Full Stack Developer & UX/UI Designer",
-      "descripcion": "AI-powered application to support emotional management for university students.",
-      "logro_general": "The software developed in this project achieved an average rating of 4.62 on a Likert scale through surveys conducted with students and mental health professionals. The chatbot demonstrated high psychometric reliability (Cronbach’s α = 0.87) in diagnostic impressions.",
+      "descripcion": "Psicobot is a web-based application designed for the management of psychological counseling appointments, integrating an artificial intelligence chatbot as a complementary tool to the support provided by mental health professionals.",
       "stack": ["Flask", "Vue.js", "MySQL", "Tailwind CSS"],
       "github": "https://github.com/DeiderRuiz/Psicobot",
       "figma": "https://www.figma.com/proto/9W5MLOxmBSqaZliFmZwTdx/Psychobot?page-id=0%3A1&node-id=2215-29&p=f&viewport=-143%2C464%2C0.07&t=6q28pfW7JFtbh90A-1&scaling=scale-down&content-scaling=fixed",
       "color": "#50C878",
       "logros_dev": [
-        "Developed a responsive interface using Vue.js and Tailwind CSS, achieving an average usability rating of 4.6/5 on the Likert scale through user surveys.",
-        "Automated three administrative processes for the mental health service by developing the server layer in Flask, replacing manual forms with digital solutions.",
-        "Integrated a psychological support chatbot for students by implementing an external API (OpenAI), complementing the university psychological counseling service.",
-        "Designed the chatbot’s conversational flow, achieving psychometric reliability (α = 0.87) in diagnostic impressions validated through user surveys.",
-        "Led the deployment of the application on AWS (EC2, RDS) and validated its stability through load testing with Apache JMeter, ensuring support for over 500 simultaneous users."
+        "Developed a responsive interface using Vue.js and Tailwind CSS, achieving an average usability rating of 4.6/5 on the Likert scale based on user surveys.",
+        "Automated three administrative processes within a mental health service by developing the server layer in Flask, replacing manual forms with digital solutions.",
+        "Integrated a psychological support chatbot for students through the implementation of the OpenAI external API, enabling a conversational interaction module within the system.",
+        "Designed the chatbot’s conversational flow, achieving psychometric reliability (α = 0.87) for diagnostic impression, validated through user surveys.",
+        "Led the application deployment on AWS (EC2, RDS) and validated system stability through load testing with Apache JMeter, ensuring support for more than 500 concurrent users."
       ],
       "logros_designer": [
-        "Conducted interviews with potential users and collaborated with stakeholders to draft user stories, enabling prioritization of key features and aligning the roadmap with project needs.",
-        "Defined the color palette applying color psychology and institutional branding, achieving a UI that conveys peace, stability, and serenity while maintaining coherence with the university’s image and values.",
-        "Designed an interactive prototype in Figma based on minimalist design principles, using a clean layout with limited interactive elements to avoid visual clutter and convey calm, order, and stability in every view."
+        "Conducted interviews with potential users and collaborated with stakeholders to write user stories, enabling the prioritization of key features and alignment of the roadmap with project needs.",
+        "Defined the color palette using color psychology principles and institutional branding, ensuring visual consistency with the university’s identity, values, and the product’s communication intent.",
+        "Designed an interactive prototype in Figma with a minimalist structure and clear visual hierarchies, improving flow comprehension and reducing navigation friction."
       ],
       "imagenes": [
         "/images/Psico_index.png",
@@ -145,22 +141,20 @@
       "fecha_inicio": "August 2021",
       "fecha_fin": "June 2022",
       "rol": "Full Stack Developer & UX/UI Designer",
-      "descripcion": "Web application for online vehicle sales.",
-      "logro_general": "This project allowed me to go through every phase of the software development lifecycle, strengthen my skills in UI design, analysis, development, and integration, and gain a deeper understanding of the end-to-end software engineering process.",
+      "descripcion": "SPEEDHUNTERS is a web-based vehicle sales application designed to digitalize dealership commercial processes, enabling quotation requests, financing options, and test drive scheduling.",
       "stack": ["Laravel", "JavaScript", "MySQL", "Tailwind CSS"],
       "github": "https://github.com/DeiderRuiz/speedhunters",
       "figma": "https://www.figma.com/proto/zUGwTduvkoOsCMJ85jMs4r/SEEDHUNTERS-beta?page-id=0%3A1&node-id=2313-2&viewport=297%2C304%2C0.31&t=h4UEV76xjJeh5dfH-1&scaling=scale-down&content-scaling=fixed",
       "color": "#E51A4C",
       "logros_dev": [
-        "Refactored and migrated key modules from pure PHP to Laravel, reducing technical debt, improving maintainability, and enhancing system security.",
-        "Automated commercial and administrative processes with backend modules in Laravel, increasing operational efficiency and eliminating nine manual tasks.",
-        "Restricted administrative routes with middleware, preventing unauthorized access and strengthening overall security.",
-        "Developed dynamic PDF generation, improving document management and enhancing the efficiency of four commercial processes."
+        "Refactored and migrated key modules from legacy PHP to Laravel, reducing technical debt and improving system maintainability and security.",
+        "Automated commercial and administrative processes through Laravel backend modules, eliminating nine manual tasks and increasing operational efficiency.",
+        "Implemented middleware to restrict access to administrative routes, preventing unauthorized access and strengthening system security."
       ],
       "logros_designer": [
-        "Defined functional requirements in a traceability matrix in collaboration with stakeholders, creating a clear foundation of prioritized features and reducing ambiguities in the initial stage.",
-        "Created wireframes that facilitated early validation of the user flow, avoiding rework and optimizing communication with the development team.",
-        "Designed an interactive prototype in Figma that served as both a visual and functional guide, accelerating design decisions and ensuring the final experience aligned with expectations."
+        "Defined a functional requirements traceability matrix to organize and prioritize features from the initial stage, reducing ambiguity and establishing a clear foundation for product design and development.",
+        "Produced wireframes that enabled early validation of user flows, preventing rework and improving communication with the development team.",
+        "Designed an interactive prototype in Figma that served as both a visual and functional reference, accelerating design decisions and ensuring the experience aligned with product objectives."
       ],
       "imagenes": [
         "/images/SH_index.png",
@@ -179,12 +173,12 @@
   },
   "idiomas": [
     {
-      "bandera": "/images/colombia.svg",
+      "bandera": "twemoji:flag-colombia",
       "lengua": "Spanish",
       "nivel": "Native"
     },
     {
-      "bandera": "/images/usa.svg",
+      "bandera": "twemoji:flag-for-flag-united-states",
       "lengua": "English",
       "nivel": "B2"
     }
@@ -224,28 +218,24 @@
   ],
   "footer": {
     "titulo": "Behind the Code",
-    "valorant": "Main Killjoy in Valorant",
-    "rocket_league": "Leader of Scorpios in Rocket League",
-    "junior": "Junior de Barranquilla fan",
     "disponibilidad": "Available For:",
     "trabajos": ["Remote Work", "Full-time", "Part-time", "Freelance"]
   },
-  "valorant_headers": {
-    "mejor_rango": "Best Rank",
-    "kd": "K/D",
-    "victorias": "Wins",
-    "derrotas": "Losses",
-    "mejor_mapa": "Best Map",
-    "arma_mas_usada": "Most Used Weapon"
-  },
-  "valorant_data": {
-    "mejor_rango": "Silver 3",
-    "kd": 0.98,
-    "victorias": 921,
-    "derrotas": 977,
-    "mejor_mapa": "Icebox",
-    "arma_mas_usada": "Vandal"
-  },
-  "rocket_league_data": "Its colors, name, and logo, just like those of this portfolio, are a tribute to the Scorpios crew from Need For Speed: Carbon.",
-  "junior_data": "The shark, the heartbeat of Barranquilla, 10-time champion of Colombia."
+  "aboutMe": [
+    {
+      "srcImage": "/images/KJ.jpg",
+      "altImage": "Killjoy",
+      "text": "Main Killjoy in Valorant"
+    },
+    {
+      "srcImage": "/images/Scorpios.png",
+      "altImage": "Scorpios Rocket League",
+      "text": "Leader of Scorpios in Rocket League"
+    },
+    {
+      "srcImage": "/images/junior.png",
+      "altImage": "Junior",
+      "text": "Junior of Barranquilla fan"
+    }
+  ]
 }
