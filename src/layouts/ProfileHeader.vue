@@ -14,7 +14,7 @@ const { datos } = storeToRefs(profile)
       <div>
         <ul class="space-y-1">
           <li class="w-fit flex items-center justify-start font-medium space-x-1">
-            <iconify-icon icon="typcn:location"></iconify-icon>
+            <iconify-icon icon="typcn:location" class="inline-block align-middle"></iconify-icon>
             <span>{{ datos.ubicacion }}</span>
           </li>
           <li class="w-fit">
@@ -23,12 +23,12 @@ const { datos } = storeToRefs(profile)
               target="_blank"
               class="flex items-center justify-start font-medium space-x-1 hover:text-gris-scorpios-dark transition transform hover:scale-110 ease-in-out duration-300 underline"
             >
-              <iconify-icon icon="mdi:email"></iconify-icon>
+              <iconify-icon icon="mdi:email" class="inline-block align-middle"></iconify-icon>
               <span>{{ datos.email }}</span>
             </a>
           </li>
           <li class="w-fit flex items-center justify-start font-medium space-x-1">
-            <iconify-icon icon="ri:whatsapp-line"></iconify-icon>
+            <iconify-icon icon="ri:whatsapp-line" class="inline-block align-middle"></iconify-icon>
             <span>{{ datos.telefono }}</span>
           </li>
         </ul>
@@ -41,7 +41,7 @@ const { datos } = storeToRefs(profile)
               target="_blank"
               class="flex items-center justify-start font-medium space-x-1 hover:text-gris-scorpios-dark transition transform hover:scale-110 ease-in-out duration-300 underline"
             >
-              <iconify-icon icon="mdi:linkedin"></iconify-icon>
+              <iconify-icon icon="mdi:linkedin" class="inline-block align-middle"></iconify-icon>
               <span>LinkedIn</span>
             </a>
           </li>
@@ -51,7 +51,7 @@ const { datos } = storeToRefs(profile)
               target="_blank"
               class="flex items-center justify-start font-medium space-x-1 hover:text-gris-scorpios-dark transition transform hover:scale-110 ease-in-out duration-300 underline"
             >
-              <iconify-icon icon="mdi:github"></iconify-icon>
+              <iconify-icon icon="mdi:github" class="inline-block align-middle"></iconify-icon>
               <span>GitHub</span>
             </a>
           </li>

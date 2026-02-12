@@ -79,21 +79,30 @@ onMounted(() => {
               href="#perfil"
               class="flex items-center justify-center space-x-1 hover:text-gris-scorpios-dark transition transform hover:scale-110 ease-in-out duration-300"
             >
-              <iconify-icon icon="mingcute:profile-fill"></iconify-icon>
+              <iconify-icon
+                icon="mingcute:profile-fill"
+                class="inline-block align-middle"
+              ></iconify-icon>
               <span>{{ datos.secciones.perfil }}</span>
             </a>
             <a
               href="#proyectos"
               class="flex items-center justify-center space-x-1 hover:text-gris-scorpios-dark transition transform hover:scale-110 ease-in-out duration-300"
             >
-              <iconify-icon icon="fluent:code-block-16-filled"></iconify-icon>
+              <iconify-icon
+                icon="fluent:code-block-16-filled"
+                class="inline-block align-middle"
+              ></iconify-icon>
               <span>{{ datos.secciones.proyectos }}</span>
             </a>
             <a
               href="#educacion"
               class="flex items-center justify-center space-x-1 hover:text-gris-scorpios-dark transition transform hover:scale-110 ease-in-out duration-300"
             >
-              <iconify-icon icon="solar:diploma-bold"></iconify-icon>
+              <iconify-icon
+                icon="solar:diploma-bold"
+                class="inline-block align-middle"
+              ></iconify-icon>
               <span>{{ datos.secciones.educacion }}</span>
             </a>
           </div>

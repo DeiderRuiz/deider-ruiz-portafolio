@@ -32,7 +32,10 @@ const { datos } = storeToRefs(profile)
             :key="idioma"
             class="flex items-center justify-start space-x-2"
           >
-            <iconify-icon :icon="idioma.bandera" class="text-2xl"></iconify-icon>
+            <iconify-icon
+              :icon="idioma.bandera"
+              class="text-2xl inline-block align-middle"
+            ></iconify-icon>
             <p>
               <span class="font-bold">{{ idioma.lengua }}:</span> {{ idioma.nivel }}
             </p>
