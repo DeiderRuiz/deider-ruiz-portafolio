@@ -12,7 +12,7 @@ defineProps({
       class="w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-gris-scorpios-dark transition duration-300"
     >
       <div class="flex items-center justify-start space-x-3">
-        <iconify-icon icon="mingcute:profile-fill" class="inline-block align-middle"></iconify-icon>
+        <iconify-icon icon="mingcute:profile-fill" class="flex items-center"></iconify-icon>
         <span>{{ secciones.perfil }}</span>
       </div>
     </a>
@@ -21,10 +21,7 @@ defineProps({
       class="w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-gris-scorpios-dark transition duration-300"
     >
       <div class="flex items-center justify-start space-x-3">
-        <iconify-icon
-          icon="fluent:code-block-16-filled"
-          class="inline-block align-middle"
-        ></iconify-icon>
+        <iconify-icon icon="fluent:code-block-16-filled" class="flex items-center"></iconify-icon>
         <span>{{ secciones.proyectos }}</span>
       </div>
     </a>
@@ -33,7 +30,7 @@ defineProps({
       class="w-full block flex items-center justify-between px-4 py-2 text-black hover:bg-gris-scorpios-dark transition duration-300"
     >
       <div class="flex items-center justify-start space-x-3">
-        <iconify-icon icon="solar:diploma-bold" class="inline-block align-middle"></iconify-icon>
+        <iconify-icon icon="solar:diploma-bold" class="flex items-center"></iconify-icon>
         <span>{{ secciones.educacion }}</span>
       </div>
     </a>

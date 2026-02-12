@@ -38,7 +38,7 @@ const emit = defineEmits(['toggle'])
         <span class="w-fit underline">{{ more }}</span>
         <iconify-icon
           icon="mingcute:down-fill"
-          class="sm:text-xl inline-block align-middle"
+          class="sm:text-xl flex items-center"
           :class="{
             'rotate-0 duration-300': !open,
             'rotate-180 duration-300': open,

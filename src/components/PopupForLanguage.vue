@@ -12,7 +12,7 @@ const emit = defineEmits(['select'])
       <div class="flex items-center justify-start space-x-3">
         <iconify-icon
           icon="twemoji:flag-colombia"
-          class="text-2xl inline-block align-middle"
+          class="text-2xl flex items-center"
         ></iconify-icon>
         <span>Español</span>
       </div>
@@ -24,7 +24,7 @@ const emit = defineEmits(['select'])
       <div class="flex items-center justify-start space-x-3">
         <iconify-icon
           icon="twemoji:flag-for-flag-united-states"
-          class="text-2xl inline-block align-middle"
+          class="text-2xl flex items-center"
         ></iconify-icon>
         <span>English</span>
       </div>
